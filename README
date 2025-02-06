@@ -1,1 +1,90 @@
+# Binary Tree Project
 
+This project demonstrates the implementation and manipulation of a binary tree using C++. The program allows users to interact with the tree, perform various operations like inserting nodes, displaying the tree in order, calculating leaf count, height, and width, through a simple console-based menu system.
+
+## Features
+
+- **Insert an Integer**: Insert a user-specified integer into the binary tree.
+- **Display the Tree in Order**: Display the nodes of the tree in an in-order traversal.
+- **Leaf Count**: Displays the total number of leaf nodes (nodes with no children).
+- **Tree Height**: Displays the height of the tree (longest path from the root to a leaf).
+- **Tree Width**: Displays the width of the tree (the maximum number of nodes at any level).
+- **Input Validation**: Validates integer inputs and menu choices to ensure the program handles incorrect inputs gracefully.
+
+## How It Works
+
+### 1. Inserting an Integer into the Tree
+The user can insert an integer into the binary tree. The tree will automatically place the value in the correct position based on binary tree properties.
+
+### 2. Displaying the Tree in Order
+This function displays the values in the tree in ascending order, which is a feature of in-order traversal.
+
+### 3. Displaying Leaf Count
+The program calculates and displays the number of leaf nodes in the tree. A leaf node is a node that has no children.
+
+### 4. Displaying Tree Height
+The height of the tree is calculated and displayed. The height is defined as the longest path from the root node to any leaf node.
+
+### 5. Displaying Tree Width
+The width of the tree is the maximum number of nodes at any given level of the 
+
+
+## Sample Menu
+
+```bash
+Menu:
+1. Insert an integer into the tree
+2. Display the tree in order
+3. Display leaf count
+4. Display tree height
+5. Display tree width
+6. Exit
+Enter your choice:
+```
+
+## Example Usage
+
+### Insert an integer:
+
+```bash
+Enter an int that you would like to insert: 42
+awwlrighty! we Inserted: 42 into the tree.
+```
+
+### Display the tree in order:
+
+```bash
+Tree in order: 42
+```
+
+### Display leaf count:
+
+```bash
+Leaf count: 1
+```
+
+### Display tree height:
+
+```bash
+Tree height: 1
+```
+
+### Display tree width:
+
+```bash
+Tree width: 1
+```
+
+### Exit the program:
+
+```bash
+Exiting program.
+```
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests for improvements. If you have suggestions or find any issues, please open an issue in the repository.
+
+## License
+
+This project is open-source and available under the [MIT License]
