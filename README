@@ -30,8 +30,7 @@ The width of the tree is the maximum number of nodes at any given level of the
 
 
 ## Sample Menu
-
-```bash
+ 
 Menu:
 1. Insert an integer into the tree
 2. Display the tree in order
@@ -40,46 +39,45 @@ Menu:
 5. Display tree width
 6. Exit
 Enter your choice:
-```
+ 
 
 ## Example Usage
 
 ### Insert an integer:
 
-```bash
+ 
 Enter an int that you would like to insert: 42
 awwlrighty! we Inserted: 42 into the tree.
-```
+ 
 
 ### Display the tree in order:
 
-```bash
+ 
 Tree in order: 42
-```
+ 
 
 ### Display leaf count:
 
-```bash
+ 
 Leaf count: 1
-```
+ 
 
 ### Display tree height:
-
-```bash
+ 
 Tree height: 1
-```
+ 
 
 ### Display tree width:
 
-```bash
+ 
 Tree width: 1
-```
+ 
 
 ### Exit the program:
 
-```bash
+ 
 Exiting program.
-```
+ 
 
 ## Contributing
 
